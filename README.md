@@ -21,5 +21,7 @@
                (탈취에 대한 해결방안으로 access Token과 refresh Token을 생성하여 탈취에대한 대비를 하였다.)
                기간이 짧게 설정되어진 access Token을 인증 전용 DB를 따로 설계하여 저장하고 서버 호출시
                인증 DB를 거쳐 한번더 인증하도록 하였으며, 좀더 기간이 긴 refresh Token은 유저정보가 담긴
-               Main DB에 저장하여 access Token이 만료되었을시 refresh Token을 사용 인증 후 다시 access Token
+               Main DB에 저장하여 access Token이 만료되었을시 refresh Token을 사용 인증 후 다시 access Token을
+               발급 받을 수 있도록 하였다. *인증DB를 따로 설계한 이유는 지속적인 토큰 인증으로 Main DB에 부하를 
+               주지 않기 위함이다.)
        
