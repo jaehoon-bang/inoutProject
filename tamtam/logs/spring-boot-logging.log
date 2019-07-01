@@ -1,0 +1,1012 @@
+2019-06-12 13:03:16.491  INFO 17632 --- [restartedMain] kr.maxted.tamtam.TamtamApplication       : Starting TamtamApplication on DESKTOP-IPN0I6D with PID 17632 (I:\project\workspace\tamtam\tamtam\target\classes started by bjh89 in I:\project\workspace\tamtam\tamtam)
+2019-06-12 13:03:16.492  INFO 17632 --- [restartedMain] kr.maxted.tamtam.TamtamApplication       : No active profile set, falling back to default profiles: default
+2019-06-12 13:03:16.493  INFO 17632 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3fc216e5: startup date [Wed Jun 12 13:03:16 KST 2019]; root of context hierarchy
+2019-06-12 13:03:16.906  INFO 17632 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2019-06-12 13:03:16.906  INFO 17632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-12 13:03:16.906  INFO 17632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2019-06-12 13:03:16.936  INFO 17632 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-12 13:03:16.938  INFO 17632 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-06-12 13:03:16.938  INFO 17632 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 445 ms
+2019-06-12 13:03:16.993  INFO 17632 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-12 13:03:16.993  INFO 17632 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-12 13:03:16.993  INFO 17632 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-12 13:03:16.993  INFO 17632 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-12 13:03:16.993  INFO 17632 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-06-12 13:03:16.993  INFO 17632 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-06-12 13:03:17.326  INFO 17632 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-06-12 13:03:17.326  INFO 17632 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-12 13:03:17.328  WARN 17632 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000006: Attempted to specify unsupported NamingStrategy via setting [hibernate.ejb.naming_strategy]; NamingStrategy has been removed in favor of the split ImplicitNamingStrategy and PhysicalNamingStrategy; use [hibernate.implicit_naming_strategy] or [hibernate.physical_naming_strategy], respectively, instead.
+2019-06-12 13:03:17.340 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@642e9730
+2019-06-12 13:03:17.340 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@642e9730
+2019-06-12 13:03:17.340 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@642e9730
+2019-06-12 13:03:17.340 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@56b4d1e6
+2019-06-12 13:03:17.340 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@d38c60e
+2019-06-12 13:03:17.340 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@29d179a8
+2019-06-12 13:03:17.340 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@4234c2d
+2019-06-12 13:03:17.340 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@4234c2d
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@4234c2d
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@18ed9bf0
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@18ed9bf0
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@18ed9bf0
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@5339740
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@5339740
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@5339740
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@3408e11d
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@3408e11d
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@3408e11d
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@2dfcb753
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@2dfcb753
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@2dfcb753
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@162a1ca3
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@162a1ca3
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@162a1ca3
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@d130975
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@d130975
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@d130975
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@37ad9602
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@37ad9602
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@70335316
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@70335316
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@2c38f2fc
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@2c38f2fc
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@6945df26
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@50ee9f06
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@435c55be
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@435c55be
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@38e6f6e5
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@38e6f6e5
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@485e18c6
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@485e18c6
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@ff0e370
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@ff0e370
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@ff0e370
+2019-06-12 13:03:17.341 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@4a3b97
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@408903e0
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@408903e0
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@408903e0
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@5431e64d
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@7a36c460
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@7a36c460
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@3a2d83c0
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@3a2d83c0
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@6b2abe0f
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@6b2abe0f
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@87a65e2
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@87a65e2
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@6631e4b2
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@6631e4b2
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@549a9433
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@5f4ab8ab
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@5f4ab8ab
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@5f4ab8ab
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@35281282
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@35281282
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@35281282
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@39dc6f41
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@337a6038
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@7e74dcb4
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@7e74dcb4
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@7e74dcb4
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@331c19bf
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@331c19bf
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@331c19bf
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@4131a085
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@49e18328
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@32bb5ab
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@32bb5ab
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@7eeff4fd
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@39d84428
+2019-06-12 13:03:17.342 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@39d84428
+2019-06-12 13:03:17.343 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@6298acff
+2019-06-12 13:03:17.343 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@6298acff
+2019-06-12 13:03:17.343 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@47e9bf17
+2019-06-12 13:03:17.343 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@3229005
+2019-06-12 13:03:17.343 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@588ea56f
+2019-06-12 13:03:17.343 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@6947b404
+2019-06-12 13:03:17.343 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@6947b404
+2019-06-12 13:03:17.343 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@409947f8
+2019-06-12 13:03:17.343 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@39ec676a
+2019-06-12 13:03:17.343 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@27bc0bec
+2019-06-12 13:03:17.343 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@289e7309
+2019-06-12 13:03:17.343 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@22324765
+2019-06-12 13:03:17.343 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@78bfb37e
+2019-06-12 13:03:17.343 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@3f9b24ee
+2019-06-12 13:03:17.343 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@64c61e2f
+2019-06-12 13:03:17.343  INFO 17632 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-12 13:03:17.358 TRACE 17632 --- [restartedMain] org.hibernate.type.TypeFactory           : Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@721b1a51
+2019-06-12 13:03:17.365  INFO 17632 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-12 13:03:17.404  INFO 17632 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-06-12 13:03:17.404  INFO 17632 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-12 13:03:17.405  WARN 17632 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000006: Attempted to specify unsupported NamingStrategy via setting [hibernate.ejb.naming_strategy]; NamingStrategy has been removed in favor of the split ImplicitNamingStrategy and PhysicalNamingStrategy; use [hibernate.implicit_naming_strategy] or [hibernate.physical_naming_strategy], respectively, instead.
+2019-06-12 13:03:17.416 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@642e9730
+2019-06-12 13:03:17.416 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@642e9730
+2019-06-12 13:03:17.416 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@642e9730
+2019-06-12 13:03:17.416 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@56b4d1e6
+2019-06-12 13:03:17.416 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@d38c60e
+2019-06-12 13:03:17.416 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@29d179a8
+2019-06-12 13:03:17.416 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@4234c2d
+2019-06-12 13:03:17.416 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@4234c2d
+2019-06-12 13:03:17.416 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@4234c2d
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@18ed9bf0
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@18ed9bf0
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@18ed9bf0
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@5339740
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@5339740
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@5339740
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@3408e11d
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@3408e11d
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@3408e11d
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@2dfcb753
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@2dfcb753
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@2dfcb753
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@162a1ca3
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@162a1ca3
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@162a1ca3
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@d130975
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@d130975
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@d130975
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@37ad9602
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@37ad9602
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@70335316
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@70335316
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@2c38f2fc
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@2c38f2fc
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@6945df26
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@50ee9f06
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@435c55be
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@435c55be
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@38e6f6e5
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@38e6f6e5
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@485e18c6
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@485e18c6
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@ff0e370
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@ff0e370
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@ff0e370
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@4a3b97
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@408903e0
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@408903e0
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@408903e0
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@5431e64d
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@7a36c460
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@7a36c460
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@3a2d83c0
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@3a2d83c0
+2019-06-12 13:03:17.417 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@6b2abe0f
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@6b2abe0f
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@87a65e2
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@87a65e2
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@6631e4b2
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@6631e4b2
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@549a9433
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@5f4ab8ab
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@5f4ab8ab
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@5f4ab8ab
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@35281282
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@35281282
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@35281282
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@39dc6f41
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@337a6038
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@7e74dcb4
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@7e74dcb4
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@7e74dcb4
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@331c19bf
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@331c19bf
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@331c19bf
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@4131a085
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@49e18328
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@32bb5ab
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@32bb5ab
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@7eeff4fd
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@39d84428
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@39d84428
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@6298acff
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@6298acff
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@47e9bf17
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@3229005
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@588ea56f
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@6947b404
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@6947b404
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@58e077e2
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@783f5dc3
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@74988a4a
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@6c34d31e
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@3730f61d
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@3563747d
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@5996241
+2019-06-12 13:03:17.418 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@4f7fedcf
+2019-06-12 13:03:17.665  INFO 17632 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-12 13:03:17.682 TRACE 17632 --- [restartedMain] org.hibernate.type.TypeFactory           : Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@32a0b49b
+2019-06-12 13:03:17.690  WARN 17632 --- [restartedMain] o.h.j.i.EntityManagerFactoryRegistry     : HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+2019-06-12 13:03:17.690  INFO 17632 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-12 13:03:17.721  INFO 17632 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-06-12 13:03:17.721  INFO 17632 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-12 13:03:17.723  WARN 17632 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000006: Attempted to specify unsupported NamingStrategy via setting [hibernate.ejb.naming_strategy]; NamingStrategy has been removed in favor of the split ImplicitNamingStrategy and PhysicalNamingStrategy; use [hibernate.implicit_naming_strategy] or [hibernate.physical_naming_strategy], respectively, instead.
+2019-06-12 13:03:17.733 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@642e9730
+2019-06-12 13:03:17.733 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@642e9730
+2019-06-12 13:03:17.733 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@642e9730
+2019-06-12 13:03:17.733 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@56b4d1e6
+2019-06-12 13:03:17.733 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@d38c60e
+2019-06-12 13:03:17.733 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@29d179a8
+2019-06-12 13:03:17.733 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@4234c2d
+2019-06-12 13:03:17.733 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@4234c2d
+2019-06-12 13:03:17.733 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@4234c2d
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@18ed9bf0
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@18ed9bf0
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@18ed9bf0
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@5339740
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@5339740
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@5339740
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@3408e11d
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@3408e11d
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@3408e11d
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@2dfcb753
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@2dfcb753
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@2dfcb753
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@162a1ca3
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@162a1ca3
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@162a1ca3
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@d130975
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@d130975
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@d130975
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@37ad9602
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@37ad9602
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@70335316
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@70335316
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@2c38f2fc
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@2c38f2fc
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@6945df26
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@50ee9f06
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@435c55be
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@435c55be
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@38e6f6e5
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@38e6f6e5
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@485e18c6
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@485e18c6
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@ff0e370
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@ff0e370
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@ff0e370
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@4a3b97
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@408903e0
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@408903e0
+2019-06-12 13:03:17.734 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@408903e0
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@5431e64d
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@7a36c460
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@7a36c460
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@3a2d83c0
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@3a2d83c0
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@6b2abe0f
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@6b2abe0f
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@87a65e2
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@87a65e2
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@6631e4b2
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@6631e4b2
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@549a9433
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@5f4ab8ab
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@5f4ab8ab
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@5f4ab8ab
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@35281282
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@35281282
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@35281282
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@39dc6f41
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@337a6038
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@7e74dcb4
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@7e74dcb4
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@7e74dcb4
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@331c19bf
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@331c19bf
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@331c19bf
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@4131a085
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@49e18328
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@32bb5ab
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@32bb5ab
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@7eeff4fd
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@39d84428
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@39d84428
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@6298acff
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@6298acff
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@47e9bf17
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@3229005
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@588ea56f
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@6947b404
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@6947b404
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@39cbc652
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@581b3a66
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@4d36cd7f
+2019-06-12 13:03:17.735 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@a85760e
+2019-06-12 13:03:17.736 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@6d1bd85a
+2019-06-12 13:03:17.736 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@6c521795
+2019-06-12 13:03:17.736 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@17f46255
+2019-06-12 13:03:17.736 DEBUG 17632 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@36e053a3
+2019-06-12 13:03:17.978  INFO 17632 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-12 13:03:17.991  WARN 17632 --- [restartedMain] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): kr.maxted.tamtam.admin.demo.model.pk.ApprComPk
+2019-06-12 13:03:17.991  WARN 17632 --- [restartedMain] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): kr.maxted.tamtam.admin.demo.model.pk.ApprComPk
+2019-06-12 13:03:17.991 TRACE 17632 --- [restartedMain] org.hibernate.type.TypeFactory           : Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@548615dd
+2019-06-12 13:03:17.996  WARN 17632 --- [restartedMain] o.h.j.i.EntityManagerFactoryRegistry     : HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+2019-06-12 13:03:17.997  INFO 17632 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-12 13:03:18.030 DEBUG 17632 --- [restartedMain] o.h.stat.internal.StatisticsInitiator    : Statistics initialized [enabled=true]
+2019-06-12 13:03:18.031  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.031  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.032  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.048 DEBUG 17632 --- [restartedMain] o.h.stat.internal.StatisticsInitiator    : Statistics initialized [enabled=true]
+2019-06-12 13:03:18.048  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.049  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.049  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.050  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.050  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.067  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.067  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.068  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.068  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.069  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.070  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.089  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.090  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.090  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.090  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.113 DEBUG 17632 --- [restartedMain] o.h.stat.internal.StatisticsInitiator    : Statistics initialized [enabled=true]
+2019-06-12 13:03:18.113  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.113  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.114  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.114  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.115  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.115  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.273  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.274  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.274  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.274  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.275  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.275  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.313  INFO 17632 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/auth', POST], []
+2019-06-12 13:03:18.313  INFO 17632 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/', GET], []
+2019-06-12 13:03:18.313  INFO 17632 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/*.html', GET], []
+2019-06-12 13:03:18.313  INFO 17632 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/*.jsp', GET], []
+2019-06-12 13:03:18.313  INFO 17632 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/admin/*', GET], []
+2019-06-12 13:03:18.313  INFO 17632 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/admin/**/*', GET], []
+2019-06-12 13:03:18.313  INFO 17632 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/admin/**/**/*', GET], []
+2019-06-12 13:03:18.313  INFO 17632 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/regist', GET], []
+2019-06-12 13:03:18.313  INFO 17632 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/favicon.ico', GET], []
+2019-06-12 13:03:18.313  INFO 17632 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html', GET], []
+2019-06-12 13:03:18.313  INFO 17632 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.jsp', GET], []
+2019-06-12 13:03:18.313  INFO 17632 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css', GET], []
+2019-06-12 13:03:18.313  INFO 17632 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js', GET], []
+2019-06-12 13:03:18.321  INFO 17632 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4060eb41, org.springframework.security.web.context.SecurityContextPersistenceFilter@55730b7c, org.springframework.security.web.header.HeaderWriterFilter@19d329d4, org.springframework.security.web.authentication.logout.LogoutFilter@63772cf5, kr.maxted.tamtam.core.auth.jwt.JwtAuthorizationTokenFilter@15b085a5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@56c144d9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@565c5a5c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61a2a8c5, org.springframework.security.web.session.SessionManagementFilter@628ae280, org.springframework.security.web.access.ExceptionTranslationFilter@13d21c6f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1b11b5ec]
+2019-06-12 13:03:18.391  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3fc216e5: startup date [Wed Jun 12 13:03:16 KST 2019]; root of context hierarchy
+2019-06-12 13:03:18.406  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/regist]}" onto public java.lang.String kr.maxted.tamtam.admin.demo.controller.DemoController.page2()
+2019-06-12 13:03:18.406  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/demo/page]}" onto public org.springframework.web.servlet.ModelAndView kr.maxted.tamtam.admin.demo.controller.DemoController.page1(org.springframework.web.servlet.ModelAndView)
+2019-06-12 13:03:18.407  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/authors],methods=[POST],consumes=[application/json;charset=UTF-8],produces=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<kr.maxted.tamtam.api.model.Author> kr.maxted.tamtam.api.controller.AuthorController.saveAuthor(kr.maxted.tamtam.api.model.Author,org.springframework.validation.BindingResult,org.springframework.web.util.UriComponentsBuilder)
+2019-06-12 13:03:18.407  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/authors],methods=[GET],consumes=[application/json;charset=UTF-8],produces=[application/json;charset=UTF-8]}" onto public java.util.HashMap<java.lang.String, java.lang.Object> kr.maxted.tamtam.api.controller.AuthorController.getAllAuthors()
+2019-06-12 13:03:18.407  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/authors/{id}],methods=[GET],consumes=[application/json;charset=UTF-8],produces=[application/json;charset=UTF-8]}" onto public java.util.HashMap<java.lang.String, java.lang.Object> kr.maxted.tamtam.api.controller.AuthorController.getAuthor(java.lang.Long)
+2019-06-12 13:03:18.407  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/authors/{id}],methods=[DELETE],consumes=[application/json;charset=UTF-8],produces=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<kr.maxted.tamtam.api.model.Author> kr.maxted.tamtam.api.controller.AuthorController.deleteAuthor(java.lang.Long)
+2019-06-12 13:03:18.407  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/authors/{id}],methods=[PUT],consumes=[application/json;charset=UTF-8],produces=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<kr.maxted.tamtam.api.model.Author> kr.maxted.tamtam.api.controller.AuthorController.updateAuthor(java.lang.Long,kr.maxted.tamtam.api.model.Author,org.springframework.validation.BindingResult)
+2019-06-12 13:03:18.408  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/books/by-author-id/{authorIds}],methods=[GET],consumes=[application/json;charset=UTF-8],produces=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.util.List<kr.maxted.tamtam.api.model.Book>> kr.maxted.tamtam.api.controller.BookController.getAllBooksByAuthorId(java.lang.Long[])
+2019-06-12 13:03:18.408  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/books/by-topic-id/{topicIds}],methods=[GET],consumes=[application/json;charset=UTF-8],produces=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.util.List<kr.maxted.tamtam.api.model.Book>> kr.maxted.tamtam.api.controller.BookController.getAllBooksByTopicId(java.lang.Long[])
+2019-06-12 13:03:18.408  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/books],methods=[POST],consumes=[application/json;charset=UTF-8],produces=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<kr.maxted.tamtam.api.model.Book> kr.maxted.tamtam.api.controller.BookController.saveBook(kr.maxted.tamtam.api.model.Book,org.springframework.validation.BindingResult,org.springframework.web.util.UriComponentsBuilder)
+2019-06-12 13:03:18.408  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/books/{id}],methods=[PUT],consumes=[application/json;charset=UTF-8],produces=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<kr.maxted.tamtam.api.model.Book> kr.maxted.tamtam.api.controller.BookController.updateBook(java.lang.Long,kr.maxted.tamtam.api.model.Book,org.springframework.validation.BindingResult)
+2019-06-12 13:03:18.408  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/books/{id}],methods=[DELETE],consumes=[application/json;charset=UTF-8],produces=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<kr.maxted.tamtam.api.model.Book> kr.maxted.tamtam.api.controller.BookController.deleteBook(java.lang.Long)
+2019-06-12 13:03:18.409  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/books],methods=[GET],consumes=[application/json;charset=UTF-8],produces=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.util.List<kr.maxted.tamtam.api.model.Book>> kr.maxted.tamtam.api.controller.BookController.getAllBooks()
+2019-06-12 13:03:18.409  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/books/{id}],methods=[GET],consumes=[application/json;charset=UTF-8],produces=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<kr.maxted.tamtam.api.model.Book> kr.maxted.tamtam.api.controller.BookController.getBook(java.lang.Long)
+2019-06-12 13:03:18.409  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/regist],methods=[GET],consumes=[application/json;charset=UTF-8],produces=[application/json;charset=UTF-8]}" onto public java.util.HashMap<java.lang.String, java.lang.Object> kr.maxted.tamtam.api.controller.registController.isRunning()
+2019-06-12 13:03:18.409  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/regist],methods=[POST],consumes=[application/json;charset=UTF-8],produces=[application/json;charset=UTF-8]}" onto public java.util.HashMap<java.lang.String, java.lang.Object> kr.maxted.tamtam.api.controller.registController.saveApprCom(kr.maxted.tamtam.admin.demo.model.ApprCom,org.springframework.validation.BindingResult,org.springframework.web.util.UriComponentsBuilder)
+2019-06-12 13:03:18.409  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/regist/checkDupComCd],methods=[GET],consumes=[application/json;charset=UTF-8],produces=[application/json;charset=UTF-8]}" onto public java.util.HashMap<java.lang.String, java.lang.Object> kr.maxted.tamtam.api.controller.registController.checkDupComCd(kr.maxted.tamtam.admin.demo.model.ApprCom)
+2019-06-12 13:03:18.410  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/topics],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<kr.maxted.tamtam.api.model.Topic>> kr.maxted.tamtam.api.controller.TopicController.getAllTopics()
+2019-06-12 13:03:18.410  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/topics/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<kr.maxted.tamtam.api.model.Topic> kr.maxted.tamtam.api.controller.TopicController.deleteTopic(java.lang.Long)
+2019-06-12 13:03:18.410  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/topics/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<kr.maxted.tamtam.api.model.Topic> kr.maxted.tamtam.api.controller.TopicController.getTopic(java.lang.Long)
+2019-06-12 13:03:18.410  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/topics/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<kr.maxted.tamtam.api.model.Topic> kr.maxted.tamtam.api.controller.TopicController.updateTopic(java.lang.Long,kr.maxted.tamtam.api.model.Topic,org.springframework.validation.BindingResult)
+2019-06-12 13:03:18.410  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/topics],methods=[POST]}" onto public org.springframework.http.ResponseEntity<kr.maxted.tamtam.api.model.Topic> kr.maxted.tamtam.api.controller.TopicController.addTopic(kr.maxted.tamtam.api.model.Topic,org.springframework.validation.BindingResult,org.springframework.web.util.UriComponentsBuilder)
+2019-06-12 13:03:18.411  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/auth],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> kr.maxted.tamtam.core.auth.controller.AuthenticationRestController.createAuthenticationToken(kr.maxted.tamtam.core.auth.jwt.JwtAuthenticationRequest) throws kr.maxted.tamtam.core.auth.controller.AuthenticationException
+2019-06-12 13:03:18.411  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/refresh],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> kr.maxted.tamtam.core.auth.controller.AuthenticationRestController.refreshAndGetAuthenticationToken(javax.servlet.http.HttpServletRequest)
+2019-06-12 13:03:18.411  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user],methods=[GET]}" onto public kr.maxted.tamtam.core.auth.jwt.JwtUser kr.maxted.tamtam.core.auth.controller.UserRestController.getAuthenticatedUser(javax.servlet.http.HttpServletRequest)
+2019-06-12 13:03:18.412  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-12 13:03:18.412  INFO 17632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-12 13:03:18.426  INFO 17632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-06-12 13:03:18.438  INFO 17632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-12 13:03:18.438  INFO 17632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-12 13:03:18.456  INFO 17632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-12 13:03:18.522  INFO 17632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-12 13:03:18.551  INFO 17632 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-06-12 13:03:18.565  INFO 17632 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 13:03:18.572 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Gayle]
+2019-06-12 13:03:18.572 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Laakmann]
+2019-06-12 13:03:18.577 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([ID1_0_] : [BIGINT]) - [1]
+2019-06-12 13:03:18.577 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([NAME2_0_] : [VARCHAR]) - [Gayle]
+2019-06-12 13:03:18.577 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([SURNAME3_0_] : [VARCHAR]) - [Laakmann]
+2019-06-12 13:03:18.577 TRACE 17632 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [kr.maxted.tamtam.api.model.Author.books#1]
+2019-06-12 13:03:18.577 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0 from Author as generatedAlias0 where ( upper(generatedAlias0.name)=upper(:param0) ) and ( upper(generatedAlias0.surname)=upper(:param1) ), time: 11ms, rows: 1
+2019-06-12 13:03:18.578 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Richard]
+2019-06-12 13:03:18.578 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Feynman]
+2019-06-12 13:03:18.583 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([ID1_0_] : [BIGINT]) - [2]
+2019-06-12 13:03:18.583 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([NAME2_0_] : [VARCHAR]) - [Richard]
+2019-06-12 13:03:18.583 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([SURNAME3_0_] : [VARCHAR]) - [Feynman]
+2019-06-12 13:03:18.583 TRACE 17632 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [kr.maxted.tamtam.api.model.Author.books#2]
+2019-06-12 13:03:18.583 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0 from Author as generatedAlias0 where ( upper(generatedAlias0.name)=upper(:param0) ) and ( upper(generatedAlias0.surname)=upper(:param1) ), time: 5ms, rows: 1
+2019-06-12 13:03:18.584 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Kathy]
+2019-06-12 13:03:18.584 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Sierra]
+2019-06-12 13:03:18.589 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([ID1_0_] : [BIGINT]) - [3]
+2019-06-12 13:03:18.589 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([NAME2_0_] : [VARCHAR]) - [Kathy]
+2019-06-12 13:03:18.589 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([SURNAME3_0_] : [VARCHAR]) - [Sierra]
+2019-06-12 13:03:18.589 TRACE 17632 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [kr.maxted.tamtam.api.model.Author.books#3]
+2019-06-12 13:03:18.589 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0 from Author as generatedAlias0 where ( upper(generatedAlias0.name)=upper(:param0) ) and ( upper(generatedAlias0.surname)=upper(:param1) ), time: 5ms, rows: 1
+2019-06-12 13:03:18.589 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Bert]
+2019-06-12 13:03:18.589 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Bates]
+2019-06-12 13:03:18.595 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([ID1_0_] : [BIGINT]) - [4]
+2019-06-12 13:03:18.595 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([NAME2_0_] : [VARCHAR]) - [Bert]
+2019-06-12 13:03:18.595 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([SURNAME3_0_] : [VARCHAR]) - [Bates]
+2019-06-12 13:03:18.595 TRACE 17632 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [kr.maxted.tamtam.api.model.Author.books#4]
+2019-06-12 13:03:18.595 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0 from Author as generatedAlias0 where ( upper(generatedAlias0.name)=upper(:param0) ) and ( upper(generatedAlias0.surname)=upper(:param1) ), time: 5ms, rows: 1
+2019-06-12 13:03:18.595 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Thomas]
+2019-06-12 13:03:18.595 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Cormen]
+2019-06-12 13:03:18.600 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([ID1_0_] : [BIGINT]) - [5]
+2019-06-12 13:03:18.600 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([NAME2_0_] : [VARCHAR]) - [Thomas]
+2019-06-12 13:03:18.600 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([SURNAME3_0_] : [VARCHAR]) - [Cormen]
+2019-06-12 13:03:18.600 TRACE 17632 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [kr.maxted.tamtam.api.model.Author.books#5]
+2019-06-12 13:03:18.600 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0 from Author as generatedAlias0 where ( upper(generatedAlias0.name)=upper(:param0) ) and ( upper(generatedAlias0.surname)=upper(:param1) ), time: 5ms, rows: 1
+2019-06-12 13:03:18.600 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Charles]
+2019-06-12 13:03:18.600 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Leiserson]
+2019-06-12 13:03:18.605 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([ID1_0_] : [BIGINT]) - [6]
+2019-06-12 13:03:18.605 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([NAME2_0_] : [VARCHAR]) - [Charles]
+2019-06-12 13:03:18.605 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([SURNAME3_0_] : [VARCHAR]) - [Leiserson]
+2019-06-12 13:03:18.605 TRACE 17632 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [kr.maxted.tamtam.api.model.Author.books#6]
+2019-06-12 13:03:18.605 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0 from Author as generatedAlias0 where ( upper(generatedAlias0.name)=upper(:param0) ) and ( upper(generatedAlias0.surname)=upper(:param1) ), time: 5ms, rows: 1
+2019-06-12 13:03:18.605 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Ronald]
+2019-06-12 13:03:18.606 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Rivest]
+2019-06-12 13:03:18.611 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([ID1_0_] : [BIGINT]) - [7]
+2019-06-12 13:03:18.611 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([NAME2_0_] : [VARCHAR]) - [Ronald]
+2019-06-12 13:03:18.611 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([SURNAME3_0_] : [VARCHAR]) - [Rivest]
+2019-06-12 13:03:18.611 TRACE 17632 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [kr.maxted.tamtam.api.model.Author.books#7]
+2019-06-12 13:03:18.611 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0 from Author as generatedAlias0 where ( upper(generatedAlias0.name)=upper(:param0) ) and ( upper(generatedAlias0.surname)=upper(:param1) ), time: 5ms, rows: 1
+2019-06-12 13:03:18.619 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Computer programming]
+2019-06-12 13:03:18.625 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([ID1_4_] : [BIGINT]) - [1]
+2019-06-12 13:03:18.625 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([DESCRIPT2_4_] : [CLOB]) - [Computer programming books]
+2019-06-12 13:03:18.625 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([NAME3_4_] : [VARCHAR]) - [Computer programming]
+2019-06-12 13:03:18.625 TRACE 17632 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [kr.maxted.tamtam.api.model.Topic.books#1]
+2019-06-12 13:03:18.625 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0 from Topic as generatedAlias0 where upper(generatedAlias0.name)=upper(:param0), time: 11ms, rows: 1
+2019-06-12 13:03:18.626 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Computers & Technology]
+2019-06-12 13:03:18.630 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([ID1_4_] : [BIGINT]) - [2]
+2019-06-12 13:03:18.631 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([DESCRIPT2_4_] : [CLOB]) - [ Books related to Computers & Technology]
+2019-06-12 13:03:18.631 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([NAME3_4_] : [VARCHAR]) - [Computers & Technology]
+2019-06-12 13:03:18.631 TRACE 17632 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [kr.maxted.tamtam.api.model.Topic.books#2]
+2019-06-12 13:03:18.631 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0 from Topic as generatedAlias0 where upper(generatedAlias0.name)=upper(:param0), time: 5ms, rows: 1
+2019-06-12 13:03:18.631 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Carer Guide]
+2019-06-12 13:03:18.637 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([ID1_4_] : [BIGINT]) - [3]
+2019-06-12 13:03:18.637 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([DESCRIPT2_4_] : [CLOB]) - [Carer Guide Books]
+2019-06-12 13:03:18.637 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([NAME3_4_] : [VARCHAR]) - [Carer Guide]
+2019-06-12 13:03:18.637 TRACE 17632 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [kr.maxted.tamtam.api.model.Topic.books#3]
+2019-06-12 13:03:18.637 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0 from Topic as generatedAlias0 where upper(generatedAlias0.name)=upper(:param0), time: 5ms, rows: 1
+2019-06-12 13:03:18.637 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Java]
+2019-06-12 13:03:18.642 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([ID1_4_] : [BIGINT]) - [4]
+2019-06-12 13:03:18.642 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([DESCRIPT2_4_] : [CLOB]) - [Java Programming Books]
+2019-06-12 13:03:18.642 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([NAME3_4_] : [VARCHAR]) - [Java]
+2019-06-12 13:03:18.642 TRACE 17632 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [kr.maxted.tamtam.api.model.Topic.books#4]
+2019-06-12 13:03:18.642 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0 from Topic as generatedAlias0 where upper(generatedAlias0.name)=upper(:param0), time: 5ms, rows: 1
+2019-06-12 13:03:18.642 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Science]
+2019-06-12 13:03:18.647 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([ID1_4_] : [BIGINT]) - [5]
+2019-06-12 13:03:18.647 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([DESCRIPT2_4_] : [CLOB]) - [Popular science books]
+2019-06-12 13:03:18.648 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([NAME3_4_] : [VARCHAR]) - [Science]
+2019-06-12 13:03:18.648 TRACE 17632 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [kr.maxted.tamtam.api.model.Topic.books#5]
+2019-06-12 13:03:18.648 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0 from Topic as generatedAlias0 where upper(generatedAlias0.name)=upper(:param0), time: 5ms, rows: 1
+2019-06-12 13:03:18.648 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Data Structures and Algorithms]
+2019-06-12 13:03:18.654 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([ID1_4_] : [BIGINT]) - [6]
+2019-06-12 13:03:18.654 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([DESCRIPT2_4_] : [CLOB]) - [Data Structures and Algorithms  books]
+2019-06-12 13:03:18.654 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([NAME3_4_] : [VARCHAR]) - [Data Structures and Algorithms]
+2019-06-12 13:03:18.654 TRACE 17632 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [kr.maxted.tamtam.api.model.Topic.books#6]
+2019-06-12 13:03:18.654 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0 from Topic as generatedAlias0 where upper(generatedAlias0.name)=upper(:param0), time: 6ms, rows: 1
+2019-06-12 13:03:18.664 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Introduction to Algorithms]
+2019-06-12 13:03:18.669 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([ID1_1_] : [BIGINT]) - [1]
+2019-06-12 13:03:18.669 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([DESCRIPT2_1_] : [CLOB]) - [Introduction to Algorithms, the 'bible' of the field, is a comprehensive textbook covering the full spectrum of modern algorithms: from the fastest algorithms and data structures to polynomial-time algorithms for seemingly intractable problems, from classical algorithms in graph theory to special algorithms for string matching, computational geometry, and number theory.]
+2019-06-12 13:03:18.669 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([PRICE3_1_] : [NUMERIC]) - [100.17]
+2019-06-12 13:03:18.669 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([TITLE4_1_] : [VARCHAR]) - [Introduction to Algorithms]
+2019-06-12 13:03:18.669 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([YEAR_OF_5_1_] : [VARCHAR]) - [2009]
+2019-06-12 13:03:18.669 TRACE 17632 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [kr.maxted.tamtam.api.model.Book.authors#1]
+2019-06-12 13:03:18.669 TRACE 17632 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [kr.maxted.tamtam.api.model.Book.topics#1]
+2019-06-12 13:03:18.669 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0 from Book as generatedAlias0 where upper(generatedAlias0.title)=upper(:param0), time: 12ms, rows: 1
+2019-06-12 13:03:18.669 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Cracking the Coding Interview: 150 Programming Questions and Solutions 4th Edtion]
+2019-06-12 13:03:18.674 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([ID1_1_] : [BIGINT]) - [2]
+2019-06-12 13:03:18.675 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([DESCRIPT2_1_] : [CLOB]) - [Cracking the Coding Interview gives you the interview preparation you need to get the top software developer jobs.]
+2019-06-12 13:03:18.675 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([PRICE3_1_] : [NUMERIC]) - [100.00]
+2019-06-12 13:03:18.675 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([TITLE4_1_] : [VARCHAR]) - [Cracking the Coding Interview: 150 Programming Questions and Solutions 4th Edtion]
+2019-06-12 13:03:18.675 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([YEAR_OF_5_1_] : [VARCHAR]) - [2010]
+2019-06-12 13:03:18.675 TRACE 17632 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [kr.maxted.tamtam.api.model.Book.authors#2]
+2019-06-12 13:03:18.675 TRACE 17632 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [kr.maxted.tamtam.api.model.Book.topics#2]
+2019-06-12 13:03:18.675 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0 from Book as generatedAlias0 where upper(generatedAlias0.title)=upper(:param0), time: 5ms, rows: 1
+2019-06-12 13:03:18.675 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Head First Java]
+2019-06-12 13:03:18.680 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([ID1_1_] : [BIGINT]) - [3]
+2019-06-12 13:03:18.680 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([DESCRIPT2_1_] : [CLOB]) - [By exploiting how your brain works, Head First Java compresses the time it takes to learn and retain--complex information. Its unique approach not only shows you what you need to know about Java syntax, it teaches you to think like a Java programmer.]
+2019-06-12 13:03:18.681 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([PRICE3_1_] : [NUMERIC]) - [60.00]
+2019-06-12 13:03:18.681 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([TITLE4_1_] : [VARCHAR]) - [Head First Java]
+2019-06-12 13:03:18.681 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([YEAR_OF_5_1_] : [VARCHAR]) - [2005]
+2019-06-12 13:03:18.681 TRACE 17632 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [kr.maxted.tamtam.api.model.Book.authors#3]
+2019-06-12 13:03:18.681 TRACE 17632 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [kr.maxted.tamtam.api.model.Book.topics#3]
+2019-06-12 13:03:18.681 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0 from Book as generatedAlias0 where upper(generatedAlias0.title)=upper(:param0), time: 5ms, rows: 1
+2019-06-12 13:03:18.681 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Surely You're Joking, Mr. Feynman!: Adventures of a Curious Character]
+2019-06-12 13:03:18.687 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([ID1_1_] : [BIGINT]) - [4]
+2019-06-12 13:03:18.687 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([DESCRIPT2_1_] : [CLOB]) - [This is an edited collection of reminiscences by the Nobel Prize-winning physicist Richard Feynman. The book, released in 1985, covers a variety of instances in Feynman's life.]
+2019-06-12 13:03:18.687 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([PRICE3_1_] : [NUMERIC]) - [100.00]
+2019-06-12 13:03:18.687 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([TITLE4_1_] : [VARCHAR]) - [Surely You're Joking, Mr. Feynman!: Adventures of a Curious Character]
+2019-06-12 13:03:18.687 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([YEAR_OF_5_1_] : [VARCHAR]) - [1985]
+2019-06-12 13:03:18.687 TRACE 17632 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [kr.maxted.tamtam.api.model.Book.authors#4]
+2019-06-12 13:03:18.687 TRACE 17632 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [kr.maxted.tamtam.api.model.Book.topics#4]
+2019-06-12 13:03:18.687 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0 from Book as generatedAlias0 where upper(generatedAlias0.title)=upper(:param0), time: 6ms, rows: 1
+2019-06-12 13:03:18.687  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    7197 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    18266461 nanoseconds spent preparing 17 JDBC statements;
+    89104382 nanoseconds spent executing 17 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.696  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    6683 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.703  INFO 17632 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-12 13:03:18.708 TRACE 17632 --- [restartedMain] org.hibernate.type.EnumType              : Binding [ROLE_ADMIN] to parameter: [1]
+2019-06-12 13:03:18.712 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([col_0_0_] : [BIGINT]) - [1]
+2019-06-12 13:03:18.712 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0.id from Role as generatedAlias0 where generatedAlias0.name=:param0, time: 8ms, rows: 1
+2019-06-12 13:03:18.713 TRACE 17632 --- [restartedMain] org.hibernate.type.EnumType              : Binding [ROLE_USER] to parameter: [1]
+2019-06-12 13:03:18.717 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([col_0_0_] : [BIGINT]) - [2]
+2019-06-12 13:03:18.717 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0.id from Role as generatedAlias0 where generatedAlias0.name=:param0, time: 4ms, rows: 1
+2019-06-12 13:03:18.723 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin@admin.com]
+2019-06-12 13:03:18.728 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([col_0_0_] : [BIGINT]) - [1]
+2019-06-12 13:03:18.728 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0.id from User as generatedAlias0 where generatedAlias0.email=:param0, time: 9ms, rows: 1
+2019-06-12 13:03:18.728 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [sksk@maxted.com]
+2019-06-12 13:03:18.733 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([col_0_0_] : [BIGINT]) - [2]
+2019-06-12 13:03:18.733 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0.id from User as generatedAlias0 where generatedAlias0.email=:param0, time: 4ms, rows: 1
+2019-06-12 13:03:18.733 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [disabled@user.com]
+2019-06-12 13:03:18.738 TRACE 17632 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([col_0_0_] : [BIGINT]) - [3]
+2019-06-12 13:03:18.738 DEBUG 17632 --- [restartedMain] o.h.s.internal.ConcurrentStatisticsImpl  : HHH000117: HQL: select generatedAlias0.id from User as generatedAlias0 where generatedAlias0.email=:param0, time: 4ms, rows: 1
+2019-06-12 13:03:18.747  INFO 17632 --- [restartedMain] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    5141 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    8659785 nanoseconds spent preparing 5 JDBC statements;
+    22446248 nanoseconds spent executing 5 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    19533 nanoseconds spent executing 5 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:18.751  INFO 17632 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2019-06-12 13:03:18.752  INFO 17632 --- [restartedMain] kr.maxted.tamtam.TamtamApplication       : Started TamtamApplication in 2.294 seconds (JVM running for 8178.395)
+2019-06-12 13:03:35.700  INFO 17632 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-06-12 13:03:35.700  INFO 17632 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-06-12 13:03:35.703  INFO 17632 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 3 ms
+2019-06-12 13:03:35.704  WARN 17632 --- [http-nio-80-exec-1] k.m.t.c.a.j.JwtAuthorizationTokenFilter  : couldn't find bearer string, will ignore the header
+2019-06-12 13:03:35.705  INFO 17632 --- [http-nio-80-exec-1] k.m.t.c.interceptor.TamtamInterceptor    : ================ Before Method
+2019-06-12 13:03:35.713  INFO 17632 --- [http-nio-80-exec-1] k.m.t.api.controller.registController    : @@@@@@@@@@@@@@@@@@@@@@@!
+2019-06-12 13:03:35.713 ERROR 17632 --- [http-nio-80-exec-1] k.m.t.api.controller.registController    : @@@@@@@@@@@@@@@@@@@@@@@!!!
+2019-06-12 13:03:35.738 TRACE 17632 --- [http-nio-80-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [1231231231]
+2019-06-12 13:03:35.738 TRACE 17632 --- [http-nio-80-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [INTEGER] - [0]
+2019-06-12 13:03:35.752 TRACE 17632 --- [http-nio-80-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [20190101222222]
+2019-06-12 13:03:35.752 TRACE 17632 --- [http-nio-80-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [admin]
+2019-06-12 13:03:35.752 TRACE 17632 --- [http-nio-80-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [CHAR] - [Y]
+2019-06-12 13:03:35.752 TRACE 17632 --- [http-nio-80-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [123@123.kr]
+2019-06-12 13:03:35.752 TRACE 17632 --- [http-nio-80-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [null]
+2019-06-12 13:03:35.753 TRACE 17632 --- [http-nio-80-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [VARCHAR] - [20190101222222]
+2019-06-12 13:03:35.753 TRACE 17632 --- [http-nio-80-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [VARCHAR] - [admin]
+2019-06-12 13:03:35.753 TRACE 17632 --- [http-nio-80-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [8] as [VARCHAR] - [20190101222222]
+2019-06-12 13:03:35.753 TRACE 17632 --- [http-nio-80-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [9] as [VARCHAR] - [admin]
+2019-06-12 13:03:35.753 TRACE 17632 --- [http-nio-80-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [10] as [BIGINT] - [1231231231]
+2019-06-12 13:03:35.753 TRACE 17632 --- [http-nio-80-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [11] as [INTEGER] - [0]
+2019-06-12 13:03:35.770  INFO 17632 --- [http-nio-80-exec-1] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    9253 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    10642498 nanoseconds spent preparing 2 JDBC statements;
+    11188425 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    15046414 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:35.780  INFO 17632 --- [http-nio-80-exec-1] k.m.t.c.interceptor.TamtamInterceptor    : ================ Method Executed
+2019-06-12 13:03:35.780  INFO 17632 --- [http-nio-80-exec-1] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    7197 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:35.780  INFO 17632 --- [http-nio-80-exec-1] k.m.t.c.interceptor.TamtamInterceptor    : ================ Method Completed
+2019-06-12 13:03:44.778  WARN 17632 --- [http-nio-80-exec-2] k.m.t.c.a.j.JwtAuthorizationTokenFilter  : couldn't find bearer string, will ignore the header
+2019-06-12 13:03:44.778  INFO 17632 --- [http-nio-80-exec-2] k.m.t.c.interceptor.TamtamInterceptor    : ================ Before Method
+2019-06-12 13:03:44.779  INFO 17632 --- [http-nio-80-exec-2] k.m.t.api.controller.registController    : @@@@@@@@@@@@@@@@@@@@@@@!
+2019-06-12 13:03:44.779 ERROR 17632 --- [http-nio-80-exec-2] k.m.t.api.controller.registController    : @@@@@@@@@@@@@@@@@@@@@@@!!!
+2019-06-12 13:03:44.790 TRACE 17632 --- [http-nio-80-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [1231231231]
+2019-06-12 13:03:44.791 TRACE 17632 --- [http-nio-80-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [INTEGER] - [0]
+2019-06-12 13:03:44.797 TRACE 17632 --- [http-nio-80-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [20190101222222]
+2019-06-12 13:03:44.797 TRACE 17632 --- [http-nio-80-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [admin]
+2019-06-12 13:03:44.797 TRACE 17632 --- [http-nio-80-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [CHAR] - [Y]
+2019-06-12 13:03:44.797 TRACE 17632 --- [http-nio-80-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [123@123.kr]
+2019-06-12 13:03:44.797 TRACE 17632 --- [http-nio-80-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [null]
+2019-06-12 13:03:44.797 TRACE 17632 --- [http-nio-80-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [VARCHAR] - [20190101222222]
+2019-06-12 13:03:44.797 TRACE 17632 --- [http-nio-80-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [VARCHAR] - [admin]
+2019-06-12 13:03:44.797 TRACE 17632 --- [http-nio-80-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [8] as [VARCHAR] - [20190101222222]
+2019-06-12 13:03:44.797 TRACE 17632 --- [http-nio-80-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [9] as [VARCHAR] - [admin]
+2019-06-12 13:03:44.798 TRACE 17632 --- [http-nio-80-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [10] as [BIGINT] - [1231231231]
+2019-06-12 13:03:44.798 TRACE 17632 --- [http-nio-80-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [11] as [INTEGER] - [0]
+2019-06-12 13:03:44.816  INFO 17632 --- [http-nio-80-exec-2] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    8739 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    362923 nanoseconds spent preparing 2 JDBC statements;
+    12239155 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    7654805 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:44.825  INFO 17632 --- [http-nio-80-exec-2] k.m.t.c.interceptor.TamtamInterceptor    : ================ Method Executed
+2019-06-12 13:03:44.826  INFO 17632 --- [http-nio-80-exec-2] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    9767 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-06-12 13:03:44.826  INFO 17632 --- [http-nio-80-exec-2] k.m.t.c.interceptor.TamtamInterceptor    : ================ Method Completed
+2019-06-12 13:03:58.272  INFO 17632 --- [Thread-354] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3fc216e5: startup date [Wed Jun 12 13:03:16 KST 2019]; root of context hierarchy
+2019-06-12 13:03:58.273  INFO 17632 --- [Thread-354] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-06-12 13:03:58.273  INFO 17632 --- [Thread-354] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-12 13:03:58.312  INFO 17632 --- [Thread-354] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-12 13:03:58.352  INFO 17632 --- [Thread-354] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
